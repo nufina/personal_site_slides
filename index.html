@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Site Slides</title>
+    <link rel='stylesheet' type='text/css' href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Neucha|Mr+Bedfort|Yanone+Kaffeesatz:200,300,400,700|Sedgwick+Ave|Shadows+Into+Light+Two|Lato:300|Roboto|Merienda" rel='stylesheet'>
+    
+</head>
+<body>
+<div class="navbar">
+	<ul>
+		<li><a href="#contact">CONTACT</a></li>
+		<li><a href="#works">WORKS</a></li>
+		<li><a href="#skills">SKILLS</a></li>
+		<li><a href="#about">ABOUT</a></li>
+		<li><a href="#home">HOME</a></li>
+	</ul>
+</div>
+<div class="slideshow-container">
+	<div class="slide fade" id="home">
+		<div class="slide-content">
+			<div class="animate one">
+				<h1>HELLO, I AM NUFINA</h1>
+			</div>
+			<p>A GRAPHIC DESIGNER <span>||</span> A WEB DEVELOPER <span>||</span> A BOOK LOVER<br>CURRENTLY LOOKING FOR A JOB IN NYC<span>.</span></p>
+		</div>	
+	</div>
+	
+	<div class="slide fade"  id="graphic">
+		<div class="slide-content">
+			<h1> GRAPHIC DESIGN</h1>
+			<p>I SPECIALISE IN CLEAN AND SIMPLE DESIGN<span>.</span> <br>BUT, SOMETIMES I DO OTHERWISE<span>.</span></p>
+		</div>
+	</div>
+	
+	<div class="slide fade"  id="web">
+		<div class="slide-content">
+			<h1>WEB DEVELOPMENT</h1>
+			<p>I DO A COMPLETE PACKAGE IN WEB MAKING <br>EITHER AS A WEB DESIGNER OR A WEB DEVELOPER <span>.</span></p>
+		</div>
+	</div>
+	
+	<div class="slide fade"  id="book">
+		<div class="slide-content">
+			<h1>BOOK LOVER</h1>
+			<p>I LOVE NONFICTION AND I LIKE FICTION GENRE<span>.</span> <br>BIOGRAPHY <span>||</span> LAW <span>||</span>  HISTORY <span>||</span> BLABLAB <span>||</span> WHATEVER<span>.</span></p>
+		</div>
+	</div>
+	
+	
+	
+	<div class="dots">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+	</div>
+	
+	<div class="slideMenu fade"  id="skills">
+		<div class="slide-content">
+			<h1>SKILLS</h1>
+			<div class="skills">
+				<span class="skill">CREATIVE SOFTWARE</span>
+				<span class="skill">HTML/CSS</span>
+				<span class="skill">BOOTSTRAP</span>
+				<span class="skill">JAVASCRIPT</span>
+				<span class="skill">JQUERY</span>
+				<span class="skill">REACT</span>
+			</div>
+		</div>
+	</div>
+	
+	<div class="slideMenu fade"  id="works">
+		<div class="slide-content">
+			<h1>WORKS</h1>
+			<div class="works">
+				<span class="work"></span>
+				<span class="work"></span>
+			</div>
+		</div>
+	</div>
+	<!--<a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlide(1)">&#10095;</a>-->
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
